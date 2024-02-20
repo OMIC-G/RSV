@@ -1,6 +1,6 @@
 # RSV genomic surveillance in Galicia
 
-The main goal of genomic surveillance of RSV is to report the geographical spread and temporal patterns of RSV clades and to detect resistance mutations. The objective is to contribute to reducing the burden of the seasonal RSV.
+The main goal of genomic surveillance of RSV is to report the geographical spread and temporal patterns of RSV clades and to detect nirsevimab binding site mutations that could affect the monoclonal antibody neutralizing activity. The objective is to contribute to reducing the burden of the seasonal RSV.
 
 Surveillance of respiratory viruses has a multidisciplinary character, and must integrate clinical, epidemiological and virological data in an organized way to report to the ECDC by TESSY (The European Surveillance System).
 
@@ -11,7 +11,7 @@ Here we present an integrated RSV analysis pipeline including :
 2. Submission to GISAID of consensus sequences
 3. Report of clades to autonomous community Health Authorities (SERGAS)
 
-This is the result of a continuous collaborative effort of the OMIC-G network (Red de Laboratorios para la aplicación de Ómicas a la Microbiología Clínica en Galicia)
+This is the result of a collaborative work of the OMIC-G network (Red de Laboratorios para la aplicación de Ómicas a la Microbiología Clínica en Galicia)
 
 ## Dependencies
 
@@ -204,9 +204,9 @@ rsvCLI upload --username XXXX --password YYYY --clientid ZZZZ \
 In the _result.log_ generated you'll have the accession_id of each sample uploaded to GISAID.
 
 
-## Final report to SAÚDE PÚBLICA DE GALICIA
+## Final report to the Health Authorities of Galicia, Spain
 
-In this final step, an .xlsx file is created with the data requested by Saúde Pública de Galicia. 
+In this final step, an .xlsx file is created with the data requested by Saúde Pública, Servizo Galego de Saúde, Galicia, Spain. 
 Again, we use R to write the .xlsx file including:
 - accession_id numbers from the rsvCLI log
 - patient data and clade from the .ods from the LIS
