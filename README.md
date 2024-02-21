@@ -7,7 +7,7 @@ Surveillance of respiratory viruses has a multidisciplinary character, and must 
 As a part of the RELECOV (Red de Laboratorios de secuenciación de SARS-CoV-2) and for coordination with CNM-ISCIII (Centro Nacional de Microbiología, Instituto de Salud Carlos III), several activities are part of the routine of a sequencing laboratory.
 
 A protocol of amplification of the RSV genome using Illumina CovidSeq reagents (Illumina, San Diego, USA) can be found in https://www.protocols.io/view/whole-genome-amplification-of-respiratory-syncytia-eq2lyjzbrlx9/v2.
-This protocol uses a primer panel included as BED file in the refs folder.
+This protocol uses a primer panel included as BED file in the [refs](refs) folder.
 
 Here we present an integrated RSV analysis pipeline including :
 1. Sequencing and bioinformatic analysis
