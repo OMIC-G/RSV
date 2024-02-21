@@ -3,7 +3,7 @@ Table of mutations in antigenic site Ø of the F protein associated with increas
 | Type | Mutations  | IC fold change | Reference            |
 | ---- | ---------- | -------------- | -------------------- |
 | A    | K68E       | 10-100         | Wilkins et al., 2023 |
-| A    | N67I;N208Y | 100-1000       | Zhu et al., 2018 [9] |
+| A    | N67I;N208Y | 100-1000       | Zhu et al., 2018     |
 | B    | I64T       | \>400          | Ahani et al., 2023   |
 | B    | K68Q       | 10-100         | Wilkins et al., 2023 |
 | B    | K68N       | 10-100         | Wilkins et al., 2023 |
