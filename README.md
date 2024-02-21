@@ -9,9 +9,9 @@ As a part of the RELECOV (Red de Laboratorios de secuenciación de SARS-CoV-2) a
 Here we present an integrated RSV analysis pipeline including :
 1. Sequencing and bioinformatic analysis
 2. Submission to GISAID of consensus sequences
-3. Report of clades to autonomous community Health Authorities (SERGAS)
+3. Report of clades and interest mutations to the Servizo Galego de Saúde (SERGAS), Spain
 
-This is the result of a collaborative work of the OMIC-G network (Red de Laboratorios para la aplicación de Ómicas a la Microbiología Clínica en Galicia)
+This is a collaborative work of the OMIC-G (Red de Laboratorios para la aplicación de Ómicas a la Microbiología Clínica en Galicia). The OMIC-G network includes the Microbiology Departments of the Public Hospitals of Galicia, Spain 
 
 ## Dependencies
 
@@ -204,9 +204,9 @@ rsvCLI upload --username XXXX --password YYYY --clientid ZZZZ \
 In the _result.log_ generated you'll have the accession_id of each sample uploaded to GISAID.
 
 
-## Final report to the Health Authorities of Galicia, Spain
+## Final report to the Servizo Galego de Saúde (SERGAS), Galicia, Spain
 
-In this final step, an .xlsx file is created with the data requested by Saúde Pública, Servizo Galego de Saúde, Galicia, Spain. 
+In this final step, an .xlsx file is created with the data requested by the Servizo Galego de Saúde (SERGAS), Galicia, Spain. 
 Again, we use R to write the .xlsx file including:
 - accession_id numbers from the rsvCLI log
 - patient data and clade from the .ods from the LIS
