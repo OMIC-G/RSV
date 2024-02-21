@@ -16,6 +16,8 @@ Here we present an integrated RSV analysis pipeline including :
 
 This is a collaborative work of the OMIC-G (Red de Laboratorios para la aplicación de Ómicas a la Microbiología Clínica en Galicia). The OMIC-G network includes the Microbiology Departments of the Public Hospitals of Galicia, Spain 
 
+After the current immunisation campaign with Nirsevimab, it is important to check RSV sequences for mutations associated with Nirsevimab resistance. These can be checked in the following [table.](Nirsevimab_mutations_table.md)
+
 ## Dependencies
 
 The following software was used for this pipeline.
